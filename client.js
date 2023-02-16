@@ -1,23 +1,25 @@
 const net = require("net");
-
-// establishes a connection with the game server
-const connect = function () {
+const { IP, PORT, ID } = require("./constants");
+const host = IP;
+const port = PORT;
+const connect = function() {
   const conn = net.createConnection({
-    host: "165.227.47.243",
-    port: "50541"
+    host,
+    port
   });
-
-  // interpret incoming data as text
   conn.setEncoding("utf8");
   conn.on("connect", () => {
-    console.log("You just joined: ");
-    conn.write("Name: JRL");
- // code that does something when the connection is first established
+    console.log("You just joined - " + "Host IP: [" + host + "] Port: [" + port + "].");
+    conn.write(`Name: ${ID}`);
   });
+
+  conn.on('data', () => {
+    console.log(' You can\'t stay ded in warzone... 💀💀💀 In fact, you are actually ded 💀💀💀');
+  });
+ 
+
   return conn;
 };
 
-console.log("Connecting ...");
-connect();
 
 module.exports = { connect };
