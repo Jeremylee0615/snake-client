@@ -14,6 +14,7 @@ const setupInput = (conn) => {
     if (key === '\u0003') {
       console.log("🔌🔌🔌Retreating from the warzone of 🐍...🔌🔌🔌 ");
       process.exit();
+      
     } else if (TAUNTS[key]) {
       conn.write(TAUNTS[key]);
     } else if (key === UPKEY) {
