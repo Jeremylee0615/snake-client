@@ -15,8 +15,7 @@ This project was created by [Jeremy Lee](https://github.com/Jeremylee0615) as on
 Our server code for this game was not written from scratch. It is a heavily modified version of the single player game [Snek](https://github.com/taniarascia/snek) created by [Tania Rascia](https://github.com/taniarascia). 
 
 # Final Product
-
-
+![](https://github.com/Jeremylee0615/snake-client/blob/master/Images/snake%20game%20showcase%201.PNG) 
 
 
 # Commands
