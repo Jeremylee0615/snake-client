@@ -4,8 +4,8 @@ const host = IP;
 const port = PORT;
 const connect = function() {
   const conn = net.createConnection({
-    host,
-    port
+    host: IP,
+    port: PORT
   });
   conn.setEncoding("utf8");
   conn.on("connect", () => {
