@@ -16,7 +16,7 @@ Our server code for this game was not written from scratch. It is a heavily modi
 
 # Final Product
 ![](https://github.com/Jeremylee0615/snake-client/blob/master/Images/snake%20game%20showcase%201.PNG) 
-
+![](https://github.com/Jeremylee0615/snake-client/blob/master/Images/snake%20game%20showcase%202.PNG)
 
 # Commands
 
