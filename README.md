@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 # Project Purpose
 
-This project was created by [Jeremy Lee](https://github.com/Jeremylee0615) as on of the core exercises in the Web Development Flex Program conducted by the [Lighthouse Labs](https://github.com/lighthouse-labs)  
+This project was created by [Jeremy Lee](https://github.com/Jeremylee0615) as one of the core exercises in the Web Development Flex Program conducted by the [Lighthouse Labs](https://github.com/lighthouse-labs)  
 
 # Credits
 
